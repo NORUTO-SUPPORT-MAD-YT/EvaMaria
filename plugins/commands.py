@@ -20,10 +20,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🤴ʙᴏᴛ ᴏᴡɴᴇʀ🤴', url=f'https://t.me/OGGYMAMAN'),
-            InlineKeyboardButton('🍁ʙᴏᴛ ɢʀᴏᴜᴘ🍁', url='https://t.me/mallumovie11')    
+            InlineKeyboardButton('🤴вσт σωηєя🤴', url=f'https://t.me/OGGYMAMAN'),
+            InlineKeyboardButton('🍁вσт gяσυρ🍁', url='https://t.me/mallumovie11')    
             ],[
-            InlineKeyboardButton('🍿ᴊᴏɪɴ ᴏᴜʀ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ🍿', url='https://t.me/MFCMCHANNEL')
+            InlineKeyboardButton('🍿נσιη συя мαιη ¢нαηηєℓ🍿', url='https://t.me/MFCMCHANNEL')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -60,10 +60,10 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay"]:
         buttons = [[
-            InlineKeyboardButton('🤴ʙᴏᴛ ᴏᴡɴᴇʀ🤴', url=f'https://t.me/OGGYMAMAN'),
-            InlineKeyboardButton('🍁ʙᴏᴛ ɢʀᴏᴜᴘ🍁', url='https://t.me/mallumovie11')    
+            InlineKeyboardButton('🤴вσт σωηєя🤴', url=f'https://t.me/OGGYMAMAN'),
+            InlineKeyboardButton('🍁вσт gяσυρ🍁', url='https://t.me/mallumovie11')    
             ],[
-            InlineKeyboardButton('🍿ᴊᴏɪɴ ᴏᴜʀ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ🍿', url='https://t.me/MFCMCHANNEL')
+            InlineKeyboardButton('🍿נσιη συя мαιη ¢нαηηєℓ🍿', url='https://t.me/MFCMCHANNEL')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -98,7 +98,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🍁 ᴊᴏɪɴ ɢʀᴏᴜᴘ 🍁", url="https://t.me/mallumovie11"),
+                    InlineKeyboardButton("🍁 נσιη gяσυρ 🍁", url="https://t.me/mallumovie11"),
                     InlineKeyboardButton("💥 ꜱʜᴀʀᴇ 💥", url="https://t.me/share/url?url=**%F0%9F%A4%A9%20%E0%B4%B8%E0%B4%BF%E0%B4%A8%E0%B4%BF%E0%B4%AE%20%E0%B4%B2%E0%B5%8B%E0%B4%95%E0%B4%82%20%F0%9F%A4%A9%0A%0A%E0%B4%8F%E0%B4%A4%E0%B5%8D%20%E0%B4%85%E0%B5%BC%E0%B4%A7%E0%B4%B0%E0%B4%BE%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B4%BF%20%E0%B4%9A%E0%B5%8B%E0%B4%A6%E0%B4%BF%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%BE%E0%B4%B2%E0%B5%81%E0%B4%82%20%E0%B4%AA%E0%B4%9F%E0%B4%82%20%E0%B4%95%E0%B4%BF%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%81%E0%B4%82,%20%E0%B4%B2%E0%B5%8B%E0%B4%95%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%B2%E0%B5%86%20%E0%B4%92%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%81%E0%B4%AE%E0%B4%BF%E0%B4%95%E0%B5%8D%E0%B4%95%20%E0%B4%AD%E0%B4%BE%E0%B4%B7%E0%B4%95%E0%B4%B3%E0%B4%BF%E0%B4%B2%E0%B5%81%E0%B4%AE%E0%B5%81%E0%B4%B3%E0%B5%8D%E0%B4%B3%20%E0%B4%B8%E0%B4%BF%E0%B4%A8%E0%B4%BF%E0%B4%AE%E0%B4%95%E0%B4%B3%E0%B5%81%E0%B4%9F%E0%B5%86%20%E0%B4%95%E0%B4%B3%E0%B4%95%E0%B5%8D%E0%B4%B7%E0%B5%BB..%20%E2%9D%A4%EF%B8%8F%0A%0A%F0%9F%91%87%20GROUP%20LINK%20%F0%9F%91%87%0A@mallumovie11%0A@mallumovie11%0A@mallumovie11**")
                 ],
                 [
