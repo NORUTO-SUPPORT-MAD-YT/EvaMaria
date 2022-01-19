@@ -14,8 +14,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/EvamariaTG/EvaMaria",
-    "repository": "https://github.com/EvamariaTG/EvaMaria",
+    "website": "https://github.com/NORUTO-SUPPORT-MAD-YT/EvaMaria",
+    "repository": "https://github.com/NORUTO-SUPPORT-MAD-YT/EvaMaria",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
