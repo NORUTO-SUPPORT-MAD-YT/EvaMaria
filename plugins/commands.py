@@ -21,6 +21,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('🤴вσт 𝙾𝚆𝙽𝙴𝚁🤴', url=f'https://t.me/HAZARD_77'),
+            InlineKeyboardButton('🌹Search🌹', url=
             InlineKeyboardButton('🍁вσт 𝙶𝚁𝚄𝙾𝙿🍁', url='https://t.me/new_movies_group_2021')    
             ],[
             InlineKeyboardButton('🍿𝙹𝙾𝙸𝙽 𝙾𝚄𝚁 𝙲𝙷𝙰𝙽𝙽𝙴𝙻🍿', url='https://t.me/new_all_movies_club')
